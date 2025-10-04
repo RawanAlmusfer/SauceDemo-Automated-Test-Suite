@@ -88,7 +88,7 @@ This project also supports Allure reporting for richer, interactive test reports
   
   ```bash
   
-  allure generate allure-results --clean -o allure-report
+  npx allure generate allure-results --clean -o allure-report
   npx allure open allure-report
   ```
 
