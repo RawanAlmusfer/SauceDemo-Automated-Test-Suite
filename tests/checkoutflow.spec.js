@@ -28,10 +28,9 @@ test("Verify user checkout with 3 items", async function({page}) {
 
     // Select 3 random products 
     await homePage.selectItems(neededItems)
-    await expect(homePage.verifyAddedItems(neededItems)).toBeTruthy()
+    expect(homePage.verifyAddedItems(neededItems)).toBeTruthy()
     await homePage.goToCart()
     await expect(page.locator(cartPage.cartHeader)).toBeVisible()
-    
 
     // Checkout from cart
     await cartPage.checkout()
