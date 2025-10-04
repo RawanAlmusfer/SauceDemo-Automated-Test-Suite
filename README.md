@@ -97,9 +97,9 @@ This project also supports Allure reporting for richer, interactive test reports
 ## ✅ Test Coverage
 
 * User logs in with valid credentials
-* Selects **3 random items** from the inventory
+* Selects **3 random items** 
 * Adds them to the cart
-* Proceeds through checkout (filling customer details)
+* Proceeds through checkout
 * Confirms successful purchase with an assertion on the **Thank you** message
 
 ---
