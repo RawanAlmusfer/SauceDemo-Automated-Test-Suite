@@ -92,6 +92,13 @@ This project also supports Allure reporting for richer, interactive test reports
   allure open ./allure-report
   ```
 
+** please ensure that alllure is successfully installed into your system by running below comaand: 
+
+ ```bash
+ allure --version
+ ```
+if its not installed, kindly refer to Allure documentaion for [setup](https://allurereport.org/docs/install/)
+
 ---
 
 ## ✅ Test Coverage
