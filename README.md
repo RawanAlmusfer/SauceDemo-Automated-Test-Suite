@@ -74,7 +74,7 @@ This project also supports Allure reporting for richer, interactive test reports
   1. Install the Allure dependencies:
 
   ```bash
-  npm install -D @playwright/test allure-playwright
+  npm install -D allure-playwright
   ```
 
   2. Run your tests and generate the Allure results:
@@ -88,8 +88,8 @@ This project also supports Allure reporting for richer, interactive test reports
   
   ```bash
   
-  npx allure generate allure-results --clean -o allure-report
-  npx allure open allure-report
+  allure generate ./allure-results -o ./allure-report
+  allure open ./allure-report
   ```
 
 ---
