@@ -71,26 +71,26 @@ Reports are stored in the `playwright-report` folder.
 
 This project also supports Allure reporting for richer, interactive test reports.
 
-Install the Allure dependencies:
+  1. Install the Allure dependencies:
 
-```bash
-npm install -D @playwright/test allure-playwright
-```
+  ```bash
+  npm install -D @playwright/test allure-playwright
+  ```
 
-Run your tests and generate the Allure results:
+  2. Run your tests and generate the Allure results:
 
-```bash
-npx playwright test
-```
-The results will be saved in the allure-results folder.
-
-Generate and open the Allure report:
-
-```bash
-
-npx allure generate allure-results --clean -o allure-report
-npx allure open allure-report
-```
+  ```bash
+  npx playwright test
+  ```
+  The results will be saved in the allure-results folder.
+  
+  3. Generate and open the Allure report:
+  
+  ```bash
+  
+  npx allure generate allure-results --clean -o allure-report
+  npx allure open allure-report
+  ```
 
 ---
 
