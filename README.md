@@ -107,7 +107,7 @@ if its not installed, kindly refer to Allure documentaion for [setup](https://al
 * Selects **3 random items** 
 * Adds them to the cart
 * Proceeds through checkout
-* Confirms successful purchase with an assertion on the **Thank you** message
+* Confirms successful purchase
 
 ---
 
@@ -116,12 +116,5 @@ if its not installed, kindly refer to Allure documentaion for [setup](https://al
 * [Playwright](https://playwright.dev/)
 * JavaScript (Node.js)
 * Page Object Model (POM) Design Pattern
-
----
-
-## 🔗 Deliverables
-
-* Source code in this repository
-* This README with setup + execution steps
-* Playwright HTML reports for results
+* Allure reports (optional, for enhanced reporting)
 
