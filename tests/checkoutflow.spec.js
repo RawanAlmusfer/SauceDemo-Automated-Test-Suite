@@ -31,6 +31,7 @@ test("Verify user checkout with 3 items", async function({page}) {
     await expect(homePage.verifyAddedItems(neededItems)).toBeTruthy()
     await homePage.goToCart()
     await expect(page.locator(cartPage.cartHeader)).toBeVisible()
+    
 
     // Checkout from cart
     await cartPage.checkout()
